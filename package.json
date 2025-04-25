@@ -1,19 +1,33 @@
 {
-	"name": "supabase-proxy",
-	"version": "0.0.0",
+	"name": "supabase-proxy.therama.dev",
 	"private": true,
-	"scripts": {
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"test": "vitest",
-		"cf-typegen": "wrangler types"
+	"version": "1.0.0",
+	"type": "module",
+	"project_id": "e8150c2c-b30c-46ce-af3a-79915d712249",
+	"status": "Production",
+	"description": "A proxy server deployed on Cloudflare worker to handle the api.therama.dev calls",
+	"author": "Ramaeon",
+	"license": "MIT",
+	"homepage": "api.therama.dev",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/ramaeondev/suprabase-proxy.therama.dev"
 	},
-	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.7.5",
-		"@cloudflare/workers-types": "^4.20250419.0",
-		"typescript": "^5.5.2",
-		"vitest": "~3.0.7",
-		"wrangler": "^4.12.0"
-	}
-}
+	"keywords": [
+	  "cloudflare",
+	  "worker",
+	  "supabase",
+	  "api"
+	],
+	"technologies": [
+	  "Cloudflare",
+	  "Worker",
+	  "Supabase",
+	  "API"
+	],
+	"features": [
+	  "API Proxy"
+	],
+	"update_project_version": "https://api.therama.dev/functions/v1/update-project-version",
+	"log_deployment": "https://api.therama.dev/functions/v1/log-deployment",
+}  

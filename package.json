@@ -29,5 +29,5 @@
 	  "API Proxy"
 	],
 	"update_project_version": "https://api.therama.dev/functions/v1/update-project-version",
-	"log_deployment": "https://api.therama.dev/functions/v1/log-deployment",
-}  
+	"log_deployment": "https://api.therama.dev/functions/v1/log-deployment"
+}
